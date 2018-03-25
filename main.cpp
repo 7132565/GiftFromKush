@@ -15,10 +15,13 @@ void wishToContinue(char decision);//a simple logic to ask a user to continue or
 void loopChoices(int choice);//repeats choices to user
 //we need to form a custom data type so that we can store two info at a location
 //first being the data and the second being the address
+
+
 struct Node{
 int data;
 struct Node* next;
 };
+
 
 struct Node *head;//here we declared a global variable called head which is the starting address of our linked list.
 
